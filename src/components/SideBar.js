@@ -4,14 +4,14 @@ const SideBar = () => {
     return (
         <div>
           <h5>Covid information</h5>
-          <ul>
+          {/* <ul>
               <li><a href="">information</a></li>
               <li><a href="">information</a></li>
               <li><a href="">information</a></li>
               <li><a href="">information</a></li>
               <li><a href="">information</a></li>
               <li><a href="">information</a></li>
-          </ul>
+          </ul> */}
         </div>
     )
 }

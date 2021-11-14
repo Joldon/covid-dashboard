@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ControlledTabs from './ControlledTabs';
 import SideBar from './components/SideBar'
-import MultiChart from './components/MultiChart'
 import './App.css';
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
         <SideBar />
       </div>
       <div className='dashboard'>
-        <MultiChart />
+        <div className='tabs'>
+          <ControlledTabs />
+        </div>
       </div>
     </div>
   );
