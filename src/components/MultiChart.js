@@ -28,6 +28,15 @@ const MultiChart = () => {
           enabled: true,
           enabledOnSeries: [1]
         },
+        animations: {
+            enabled: true,
+            easing: 'easeinout',
+            speed: 800,
+            animateGradually: {
+                enabled: true,
+                delay: 200
+            }
+          },
         labels: [],
         xaxis: {
           categories: ["EU","US","Brazil","India","Mexico","Russia","Peru","Indonesia","UK","Italy","Colombia","Iran","France","Argentina","Germany","South Africa","Spain","Ukraine","Poland","Turkey","Romania","Philippines","Chile","Ecuador","Hungary","Czechia"]

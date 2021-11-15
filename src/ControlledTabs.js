@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab'
+import Tab from 'react-bootstrap/Tab';
+import BarChart from './components/BarChart';
 
 import MultiChart from './components/MultiChart';
 import LineChart from './components/LineChart';
@@ -16,9 +17,9 @@ function ControlledTabs() {
         onSelect={(k) => setKey(k)}
         className="mb-3"
       >
-        {/* <Tab eventKey="BarChart" title="BarChart">
+        <Tab eventKey="BarChart" title="BarChart">
           <BarChart />
-        </Tab> */}
+        </Tab>
         <Tab eventKey="MultiChart" title="MultiChart">
           <MultiChart />
         </Tab>
