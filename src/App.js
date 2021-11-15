@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ControlledTabs from './ControlledTabs';
+import Dashboard from './Dashboard';
 import SideBar from './components/SideBar'
 import './App.css';
 
@@ -11,8 +11,14 @@ function App() {
         <SideBar />
       </div>
       <div className='dashboard'>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
         <div className='tabs'>
-          <ControlledTabs />
+          <Dashboard />
         </div>
       </div>
     </div>

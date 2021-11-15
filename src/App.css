@@ -33,6 +33,20 @@ html, body {
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
 
+.sidebar, h1 {
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  padding: .5rem;
+}
+
 .dashboard {
   /* flex-basis: 85%; */
   height: 100%;
