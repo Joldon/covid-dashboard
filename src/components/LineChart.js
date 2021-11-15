@@ -57,7 +57,7 @@ const LineChart = () => {
           curve: 'smooth'
         },
         title: {
-          text: 'Cumulative COVID deaths (in thousands) by month in top 5 affected countries',
+          text: 'Cumulative COVID deaths ',
           align: 'left'
         },
         grid: {
@@ -79,7 +79,7 @@ const LineChart = () => {
         },
         yaxis: {
           title: {
-            text: 'cumulative deaths'
+            text: 'cumulative deaths (in thousands)'
           },
           min: 60,
           max: 800

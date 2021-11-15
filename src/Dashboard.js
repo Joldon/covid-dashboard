@@ -7,8 +7,8 @@ import MultiChart from './components/MultiChart';
 import LineChart from './components/LineChart';
 
 
-function ControlledTabs() {
-    const [key, setKey] = useState('home');
+function Dashboard() {
+    const [key, setKey] = useState('LineChart');
   
     return (
       <Tabs
@@ -16,6 +16,7 @@ function ControlledTabs() {
         activeKey={key}
         onSelect={(k) => setKey(k)}
         className="mb-3"
+        selectedIndex={1}
       >
         <Tab eventKey="BarChart" title="BarChart">
           <BarChart />
@@ -29,4 +30,4 @@ function ControlledTabs() {
       </Tabs>
     );
   }
-export default ControlledTabs  
+export default Dashboard  
