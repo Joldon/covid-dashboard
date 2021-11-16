@@ -11,12 +11,6 @@ function App() {
         <SideBar />
       </div>
       <div className='dashboard'>
-        <div class="item">
-        </div>
-        <div class="item">
-        </div>
-        <div class="item">
-        </div>
         <div className='tabs'>
           <Dashboard />
         </div>
