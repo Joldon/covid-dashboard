@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://github.com/Joldon/covid-dashboard",
+  "homepage": "https://joldon.github.io/covid-dashboard/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
